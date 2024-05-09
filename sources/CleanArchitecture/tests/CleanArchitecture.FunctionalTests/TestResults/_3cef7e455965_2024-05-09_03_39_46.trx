@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="ed6782bb-f7de-40cd-9c8f-eb6a047f9e40" name="@3cef7e455965 2024-05-09 03:39:46" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-05-09T03:39:46.1562644+00:00" queuing="2024-05-09T03:39:46.1562645+00:00" start="2024-05-09T03:39:45.4689897+00:00" finish="2024-05-09T03:39:46.1642229+00:00" />
+  <TestSettings name="default" id="16c234c4-4f7d-482e-bf33-a1570d611079">
+    <Deployment runDeploymentRoot="_3cef7e455965_2024-05-09_03_39_46" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="43a7444f-2a2b-40c0-97df-93efe523081f" testId="57a17011-ec5f-0f72-1518-e5a930685a98" testName="CleanArchitecture.FunctionalTests.UnitTest1.Test1" computerName="3cef7e455965" duration="00:00:00.0009528" startTime="2024-05-09T03:39:46.0641053+00:00" endTime="2024-05-09T03:39:46.0641336+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43a7444f-2a2b-40c0-97df-93efe523081f" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="CleanArchitecture.FunctionalTests.UnitTest1.Test1" storage="/workspaces/clean-architecture/sources/cleanarchitecture/tests/cleanarchitecture.functionaltests/bin/debug/net8.0/cleanarchitecture.functionaltests.dll" id="57a17011-ec5f-0f72-1518-e5a930685a98">
+      <Execution id="43a7444f-2a2b-40c0-97df-93efe523081f" />
+      <TestMethod codeBase="/workspaces/clean-architecture/sources/CleanArchitecture/tests/CleanArchitecture.FunctionalTests/bin/Debug/net8.0/CleanArchitecture.FunctionalTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CleanArchitecture.FunctionalTests.UnitTest1" name="Test1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="57a17011-ec5f-0f72-1518-e5a930685a98" executionId="43a7444f-2a2b-40c0-97df-93efe523081f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.5+1caef2f33e (64-bit .NET 8.0.4)
+[xUnit.net 00:00:00.26]   Discovering: CleanArchitecture.FunctionalTests
+[xUnit.net 00:00:00.27]   Discovered:  CleanArchitecture.FunctionalTests
+[xUnit.net 00:00:00.28]   Starting:    CleanArchitecture.FunctionalTests
+[xUnit.net 00:00:00.31]   Finished:    CleanArchitecture.FunctionalTests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

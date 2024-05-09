@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.32142857142857145" branch-rate="0.3" lines-covered="27" lines-valid="84" branches-covered="12" branches-valid="40" complexity="NaN" version="0" timestamp="1715228230">
+  <sources />
+  <packages>
+    <package name="Default" line-rate="0.32142857142857145" branch-rate="0.3" complexity="NaN">
+      <classes>
+        <class name="/workspaces/clean-architecture/sources/CleanArchitecture/shared/CleanArchitecture.Common/Primitives/DomainObjects/Entity.cs" filename="/workspaces/clean-architecture/sources/CleanArchitecture/shared/CleanArchitecture.Common/Primitives/DomainObjects/Entity.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="System.Guid CleanArchitecture.Common.Primitives.DomainObjects.Entity::get_Id" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="5" hits="56" branch="false" />
+                <line number="7" hits="20" branch="false" />
+                <line number="8" hits="20" branch="false" />
+                <line number="9" hits="20" branch="false" />
+                <line number="10" hits="20" branch="false" />
+              </lines>
+            </method>
+            <method name="System.Boolean CleanArchitecture.Common.Primitives.DomainObjects.Entity::Equals" signature="(System.Object)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="13" hits="8" branch="false" />
+                <line number="14" hits="9" branch="true" condition-coverage="100% (2/2)" />
+                <line number="15" hits="8" branch="true" condition-coverage="100% (2/2)" />
+                <line number="16" hits="7" branch="true" condition-coverage="100% (2/2)" />
+                <line number="18" hits="5" branch="false" />
+                <line number="19" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="System.Boolean CleanArchitecture.Common.Primitives.DomainObjects.Entity::Equals" signature="(CleanArchitecture.Common.Primitives.DomainObjects.Entity)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="22" hits="9" branch="false" />
+                <line number="23" hits="10" branch="true" condition-coverage="100% (2/2)" />
+                <line number="24" hits="9" branch="true" condition-coverage="100% (2/2)" />
+                <line number="25" hits="7" branch="false" />
+                <line number="26" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name="System.Boolean CleanArchitecture.Common.Primitives.DomainObjects.Entity::op_Equality" signature="(CleanArchitecture.Common.Primitives.DomainObjects.Entity,CleanArchitecture.Common.Primitives.DomainObjects.Entity)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="28" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="System.Boolean CleanArchitecture.Common.Primitives.DomainObjects.Entity::op_Inequality" signature="(CleanArchitecture.Common.Primitives.DomainObjects.Entity,CleanArchitecture.Common.Primitives.DomainObjects.Entity)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="30" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="System.Int32 CleanArchitecture.Common.Primitives.DomainObjects.Entity::GetHashCode" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="32" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="System.Object CleanArchitecture.Common.Primitives.DomainObjects.Entity::Clone" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="34" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="System.String CleanArchitecture.Common.Primitives.DomainObjects.Entity::ToString" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="System.Void CleanArchitecture.Common.Primitives.DomainObjects.Entity::.ctor" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="7" hits="20" branch="false" />
+                <line number="8" hits="20" branch="false" />
+                <line number="9" hits="20" branch="false" />
+                <line number="10" hits="20" branch="false" />
+                <line number="13" hits="8" branch="false" />
+                <line number="14" hits="9" branch="true" condition-coverage="100% (2/2)" />
+                <line number="15" hits="8" branch="true" condition-coverage="100% (2/2)" />
+                <line number="16" hits="7" branch="true" condition-coverage="100% (2/2)" />
+                <line number="18" hits="5" branch="false" />
+                <line number="19" hits="8" branch="false" />
+                <line number="22" hits="9" branch="false" />
+                <line number="23" hits="10" branch="true" condition-coverage="100% (2/2)" />
+                <line number="24" hits="9" branch="true" condition-coverage="100% (2/2)" />
+                <line number="25" hits="7" branch="false" />
+                <line number="26" hits="9" branch="false" />
+                <line number="28" hits="2" branch="false" />
+                <line number="30" hits="2" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="56" branch="false" />
+            <line number="7" hits="20" branch="false" />
+            <line number="8" hits="20" branch="false" />
+            <line number="9" hits="20" branch="false" />
+            <line number="10" hits="20" branch="false" />
+            <line number="13" hits="8" branch="false" />
+            <line number="14" hits="9" branch="true" condition-coverage="100% (2/2)" />
+            <line number="15" hits="8" branch="true" condition-coverage="100% (2/2)" />
+            <line number="16" hits="7" branch="true" condition-coverage="100% (2/2)" />
+            <line number="18" hits="5" branch="false" />
+            <line number="19" hits="8" branch="false" />
+            <line number="22" hits="9" branch="false" />
+            <line number="23" hits="10" branch="true" condition-coverage="100% (2/2)" />
+            <line number="24" hits="9" branch="true" condition-coverage="100% (2/2)" />
+            <line number="25" hits="7" branch="false" />
+            <line number="26" hits="9" branch="false" />
+            <line number="28" hits="2" branch="false" />
+            <line number="30" hits="2" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="/workspaces/clean-architecture/sources/CleanArchitecture/shared/CleanArchitecture.Common/Primitives/DomainObjects/ValueObject.cs" filename="/workspaces/clean-architecture/sources/CleanArchitecture/shared/CleanArchitecture.Common/Primitives/DomainObjects/ValueObject.cs" line-rate="0.8571428571428571" branch-rate="0.5" complexity="NaN">
+          <methods>
+            <method name="System.Boolean CleanArchitecture.Common.Primitives.DomainObjects.ValueObject::Equals" signature="(CleanArchitecture.Common.Primitives.DomainObjects.ValueObject)" line-rate="1" branch-rate="0.5" complexity="NaN">
+              <lines>
+                <line number="8" hits="2" branch="true" condition-coverage="50% (1/2)" />
+              </lines>
+            </method>
+            <method name="System.Int32 CleanArchitecture.Common.Primitives.DomainObjects.ValueObject::GetHashCode" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="11" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="System.Boolean CleanArchitecture.Common.Primitives.DomainObjects.ValueObject::ValuesAreEqual" signature="(CleanArchitecture.Common.Primitives.DomainObjects.ValueObject)" line-rate="0.8" branch-rate="0.5" complexity="NaN">
+              <lines>
+                <line number="14" hits="2" branch="false" />
+                <line number="15" hits="2" branch="true" condition-coverage="50% (1/2)" />
+                <line number="16" hits="0" branch="false" />
+                <line number="18" hits="2" branch="false" />
+                <line number="19" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="2" branch="true" condition-coverage="50% (1/2)" />
+            <line number="11" hits="4" branch="false" />
+            <line number="14" hits="2" branch="false" />
+            <line number="15" hits="2" branch="true" condition-coverage="50% (1/2)" />
+            <line number="16" hits="0" branch="false" />
+            <line number="18" hits="2" branch="false" />
+            <line number="19" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="/workspaces/clean-architecture/sources/CleanArchitecture/shared/CleanArchitecture.Common/Primitives/Results/Error.cs" filename="/workspaces/clean-architecture/sources/CleanArchitecture/shared/CleanArchitecture.Common/Primitives/Results/Error.cs" line-rate="0" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="System.String CleanArchitecture.Common.Primitives.Results.Error::get_Code" signature="()" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="3" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="System.Void CleanArchitecture.Common.Primitives.Results.Error::.cctor" signature="()" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="5" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="false" />
+            <line number="5" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="/workspaces/clean-architecture/sources/CleanArchitecture/shared/CleanArchitecture.Common/Primitives/Results/Result.cs" filename="/workspaces/clean-architecture/sources/CleanArchitecture/shared/CleanArchitecture.Common/Primitives/Results/Result.cs" line-rate="0" branch-rate="0" complexity="NaN">
+          <methods>
+            <method name="System.Boolean CleanArchitecture.Common.Primitives.Results.Result::get_IsSuccess" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="CleanArchitecture.Common.Primitives.Results.Error CleanArchitecture.Common.Primitives.Results.Result::get_Error" signature="()" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="5" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="System.Collections.Generic.IEnumerable`1&lt;CleanArchitecture.Common.Primitives.Results.Error&gt; CleanArchitecture.Common.Primitives.Results.Result::get_Errors" signature="()" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="6" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="System.Boolean CleanArchitecture.Common.Primitives.Results.Result::get_IsFailure" signature="()" line-rate="0" branch-rate="0" complexity="NaN">
+              <lines>
+                <line number="7" hits="0" branch="false" />
+                <line number="8" hits="0" branch="false" />
+                <line number="10" hits="0" branch="false" />
+                <line number="11" hits="0" branch="false" />
+                <line number="12" hits="0" branch="true" condition-coverage="0% (0/8)" />
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="24" hits="0" branch="true" condition-coverage="0% (0/8)" />
+                <line number="25" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+                <line number="29" hits="0" branch="false" />
+                <line number="30" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="CleanArchitecture.Common.Primitives.Results.Result CleanArchitecture.Common.Primitives.Results.Result::Success" signature="()" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="34" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="CleanArchitecture.Common.Primitives.Results.Result`1&lt;TValue&gt; CleanArchitecture.Common.Primitives.Results.Result::Success" signature="(TValue)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="37" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="CleanArchitecture.Common.Primitives.Results.Result`1&lt;TValue&gt; CleanArchitecture.Common.Primitives.Results.Result::Create" signature="(TValue,CleanArchitecture.Common.Primitives.Results.Error)" line-rate="0" branch-rate="0" complexity="NaN">
+              <lines>
+                <line number="41" hits="0" branch="true" condition-coverage="0% (0/2)" />
+              </lines>
+            </method>
+            <method name="CleanArchitecture.Common.Primitives.Results.Result`1&lt;TValue&gt; CleanArchitecture.Common.Primitives.Results.Result::Create" signature="(TValue,System.Collections.Generic.IEnumerable`1&lt;CleanArchitecture.Common.Primitives.Results.Error&gt;)" line-rate="0" branch-rate="0" complexity="NaN">
+              <lines>
+                <line number="45" hits="0" branch="true" condition-coverage="0% (0/2)" />
+              </lines>
+            </method>
+            <method name="CleanArchitecture.Common.Primitives.Results.Result CleanArchitecture.Common.Primitives.Results.Result::Failure" signature="(CleanArchitecture.Common.Primitives.Results.Error)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="48" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="CleanArchitecture.Common.Primitives.Results.Result CleanArchitecture.Common.Primitives.Results.Result::Failures" signature="(System.Collections.Generic.IEnumerable`1&lt;CleanArchitecture.Common.Primitives.Results.Error&gt;)" line-rate="0" branch-rate="0" complexity="NaN">
+              <lines>
+                <line number="51" hits="0" branch="false" />
+                <line number="52" hits="0" branch="false" />
+                <line number="53" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="54" hits="0" branch="false" />
+                <line number="55" hits="0" branch="false" />
+                <line number="58" hits="0" branch="false" />
+                <line number="59" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="CleanArchitecture.Common.Primitives.Results.Result`1&lt;TValue&gt; CleanArchitecture.Common.Primitives.Results.Result::Failure" signature="(CleanArchitecture.Common.Primitives.Results.Error)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="61" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="CleanArchitecture.Common.Primitives.Results.Result`1&lt;TValue&gt; CleanArchitecture.Common.Primitives.Results.Result::Failures" signature="(System.Collections.Generic.IEnumerable`1&lt;CleanArchitecture.Common.Primitives.Results.Error&gt;)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="63" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="CleanArchitecture.Common.Primitives.Results.Result CleanArchitecture.Common.Primitives.Results.Result::Combine" signature="(CleanArchitecture.Common.Primitives.Results.Result[])" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="System.Void CleanArchitecture.Common.Primitives.Results.Result::.ctor" signature="(System.Boolean,CleanArchitecture.Common.Primitives.Results.Error)" line-rate="0" branch-rate="0" complexity="NaN">
+              <lines>
+                <line number="10" hits="0" branch="false" />
+                <line number="11" hits="0" branch="false" />
+                <line number="12" hits="0" branch="true" condition-coverage="0% (0/8)" />
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="System.Void CleanArchitecture.Common.Primitives.Results.Result::.ctor" signature="(System.Boolean,System.Collections.Generic.IEnumerable`1&lt;CleanArchitecture.Common.Primitives.Results.Error&gt;)" line-rate="0" branch-rate="0" complexity="NaN">
+              <lines>
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="24" hits="0" branch="true" condition-coverage="0% (0/8)" />
+                <line number="25" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+                <line number="29" hits="0" branch="false" />
+                <line number="30" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+                <line number="41" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="45" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="48" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+                <line number="52" hits="0" branch="false" />
+                <line number="53" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="54" hits="0" branch="false" />
+                <line number="55" hits="0" branch="false" />
+                <line number="58" hits="0" branch="false" />
+                <line number="59" hits="0" branch="false" />
+                <line number="61" hits="0" branch="false" />
+                <line number="63" hits="0" branch="false" />
+                <line number="66" hits="0" branch="false" />
+                <line number="67" hits="0" branch="false" />
+                <line number="68" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="69" hits="0" branch="false" />
+                <line number="70" hits="0" branch="false" />
+                <line number="71" hits="0" branch="false" />
+                <line number="73" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="74" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="false" />
+            <line number="6" hits="0" branch="false" />
+            <line number="7" hits="0" branch="false" />
+            <line number="8" hits="0" branch="false" />
+            <line number="10" hits="0" branch="false" />
+            <line number="11" hits="0" branch="false" />
+            <line number="12" hits="0" branch="true" condition-coverage="0% (0/8)" />
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="24" hits="0" branch="true" condition-coverage="0% (0/8)" />
+            <line number="25" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="29" hits="0" branch="false" />
+            <line number="30" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="41" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="45" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="48" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="52" hits="0" branch="false" />
+            <line number="53" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="54" hits="0" branch="false" />
+            <line number="55" hits="0" branch="false" />
+            <line number="58" hits="0" branch="false" />
+            <line number="59" hits="0" branch="false" />
+            <line number="61" hits="0" branch="false" />
+            <line number="63" hits="0" branch="false" />
+            <line number="66" hits="0" branch="false" />
+            <line number="67" hits="0" branch="false" />
+            <line number="68" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="69" hits="0" branch="false" />
+            <line number="70" hits="0" branch="false" />
+            <line number="71" hits="0" branch="false" />
+            <line number="73" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="74" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="/workspaces/clean-architecture/sources/CleanArchitecture/shared/CleanArchitecture.Common/Primitives/Results/ResultT.cs" filename="/workspaces/clean-architecture/sources/CleanArchitecture/shared/CleanArchitecture.Common/Primitives/Results/ResultT.cs" line-rate="0" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="TValue CleanArchitecture.Common.Primitives.Results.Result`1::get_Value" signature="()" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="5" hits="0" branch="false" />
+                <line number="8" hits="0" branch="false" />
+                <line number="9" hits="0" branch="false" />
+                <line number="10" hits="0" branch="false" />
+                <line number="11" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="CleanArchitecture.Common.Primitives.Results.Result`1&lt;TValue&gt; CleanArchitecture.Common.Primitives.Results.Result`1::Success" signature="(TValue)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="20" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="CleanArchitecture.Common.Primitives.Results.Result`1&lt;TValue&gt; CleanArchitecture.Common.Primitives.Results.Result`1::Failure" signature="(CleanArchitecture.Common.Primitives.Results.Error)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="23" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="CleanArchitecture.Common.Primitives.Results.Result`1&lt;TValue&gt; CleanArchitecture.Common.Primitives.Results.Result`1::Failures" signature="(System.Collections.Generic.IEnumerable`1&lt;CleanArchitecture.Common.Primitives.Results.Error&gt;)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="System.Void CleanArchitecture.Common.Primitives.Results.Result`1::.ctor" signature="(System.Boolean,CleanArchitecture.Common.Primitives.Results.Error,TValue)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="8" hits="0" branch="false" />
+                <line number="9" hits="0" branch="false" />
+                <line number="10" hits="0" branch="false" />
+                <line number="11" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="System.Void CleanArchitecture.Common.Primitives.Results.Result`1::.ctor" signature="(System.Boolean,System.Collections.Generic.IEnumerable`1&lt;CleanArchitecture.Common.Primitives.Results.Error&gt;,TValue)" line-rate="0" branch-rate="1" complexity="NaN">
+              <lines>
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="20" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="false" />
+            <line number="8" hits="0" branch="false" />
+            <line number="9" hits="0" branch="false" />
+            <line number="10" hits="0" branch="false" />
+            <line number="11" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "AnDsyS4iDPoVae4h3UIDtbxCwATFrr9OYJBQQlXBA41h46tBoRsy099bmXzPUHcvlfKkH6RrzwpGi/qi6Ek9gA==",
+  "success": true,
+  "projectFilePath": "/workspaces/clean-architecture/sources/CleanArchitecture/shared/CleanArchitecture.Common/CleanArchitecture.Common.csproj",
+  "expectedPackageFiles": [
+    "/home/vscode/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/home/vscode/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/vscode/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

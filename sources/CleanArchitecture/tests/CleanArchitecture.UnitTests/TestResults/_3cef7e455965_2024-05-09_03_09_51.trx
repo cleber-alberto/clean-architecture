@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="47db0fd2-36c5-4968-b9c3-a98ef51090e3" name="@3cef7e455965 2024-05-09 03:09:51" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-05-09T03:09:51.8397236+00:00" queuing="2024-05-09T03:09:51.8397237+00:00" start="2024-05-09T03:09:51.2647807+00:00" finish="2024-05-09T03:09:51.8610716+00:00" />
+  <TestSettings name="default" id="195da9cc-544d-437b-b6e4-71649334bd01">
+    <Deployment runDeploymentRoot="_3cef7e455965_2024-05-09_03_09_51" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="ce502fbc-3c5b-4565-95a9-b4637df5e126" testId="8be45ddf-4176-0c16-a902-b906891032fa" testName="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests.Entity_WithDifferentId_HaveDifferentToString" computerName="3cef7e455965" duration="00:00:00.0003351" startTime="2024-05-09T03:09:51.8088097+00:00" endTime="2024-05-09T03:09:51.8088097+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce502fbc-3c5b-4565-95a9-b4637df5e126" />
+    <UnitTestResult executionId="f9188c34-5cd3-4a1d-992d-01f3c1b99360" testId="72031b4e-429f-6c71-19c7-374f46dc3ca0" testName="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests.Entity_WithDifferentId_HaveDifferentHashCode" computerName="3cef7e455965" duration="00:00:00.0002787" startTime="2024-05-09T03:09:51.8087907+00:00" endTime="2024-05-09T03:09:51.8087907+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9188c34-5cd3-4a1d-992d-01f3c1b99360" />
+    <UnitTestResult executionId="4fea6041-f98c-4e40-bf80-7a57cbd2c6a7" testId="1912739d-364c-f430-22ca-c8ea855776a1" testName="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.ValueObjectTests.GetHashCode_WithEqualValueObjects_ReturnsSameHashCode" computerName="3cef7e455965" duration="00:00:00.0051894" startTime="2024-05-09T03:09:51.8045391+00:00" endTime="2024-05-09T03:09:51.8045537+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fea6041-f98c-4e40-bf80-7a57cbd2c6a7" />
+    <UnitTestResult executionId="2600d1f7-3c0b-4789-b519-a23dd723a783" testId="55842f5b-0305-8df8-aad0-fcd76e53142c" testName="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests.Entity_WithDifferentId_AreNotEqual" computerName="3cef7e455965" duration="00:00:00.0000703" startTime="2024-05-09T03:09:51.8088285+00:00" endTime="2024-05-09T03:09:51.8088286+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2600d1f7-3c0b-4789-b519-a23dd723a783" />
+    <UnitTestResult executionId="77471237-f710-4d1b-8c5b-793ae0505501" testId="1ca9ffbf-fef8-c78f-735c-0719d79da2f4" testName="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.ValueObjectTests.GetHashCode_WithDifferentValueObjects_ReturnsDifferentHashCode" computerName="3cef7e455965" duration="00:00:00.0001878" startTime="2024-05-09T03:09:51.8087805+00:00" endTime="2024-05-09T03:09:51.8087805+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77471237-f710-4d1b-8c5b-793ae0505501" />
+    <UnitTestResult executionId="65c615fe-e015-4f89-a402-a3a6a8c22886" testId="b3433f54-ef89-4bff-4c94-83f3c38cda26" testName="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests.Entity_WithNull_AreNotEqual" computerName="3cef7e455965" duration="00:00:00.0010621" startTime="2024-05-09T03:09:51.8087328+00:00" endTime="2024-05-09T03:09:51.8087328+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65c615fe-e015-4f89-a402-a3a6a8c22886" />
+    <UnitTestResult executionId="90b8a9c0-8dec-49d4-8ac1-e282e2a72ad2" testId="8deb6539-8148-2234-324b-d724f5af6961" testName="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests.Entity_WithDifferentId_AreNotEqualWithOperator" computerName="3cef7e455965" duration="00:00:00.0002444" startTime="2024-05-09T03:09:51.8229349+00:00" endTime="2024-05-09T03:09:51.8229349+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90b8a9c0-8dec-49d4-8ac1-e282e2a72ad2" />
+    <UnitTestResult executionId="4c8511fc-bb7c-48ae-96fc-e5fd3a8e4ad2" testId="98115659-5584-6e53-51da-2928bbb4e2d4" testName="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests.Entity_WithSameId_AreEqualWithOperator" computerName="3cef7e455965" duration="00:00:00.0002981" startTime="2024-05-09T03:09:51.8229130+00:00" endTime="2024-05-09T03:09:51.8229130+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c8511fc-bb7c-48ae-96fc-e5fd3a8e4ad2" />
+    <UnitTestResult executionId="2c485941-ee31-4069-8c32-5b9b32ff6157" testId="93527e5d-510b-daed-5ac7-96f771220ccc" testName="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.ValueObjectTests.Equals_WithDifferentValueObjects_ReturnsFalse" computerName="3cef7e455965" duration="00:00:00.0000903" startTime="2024-05-09T03:09:51.8087452+00:00" endTime="2024-05-09T03:09:51.8087453+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c485941-ee31-4069-8c32-5b9b32ff6157" />
+    <UnitTestResult executionId="fd4fb70e-1a34-4a9a-aa07-82758511caf2" testId="2de62c2b-fd73-901f-33b1-e21d49c02eb2" testName="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests.Entity_WithSameId_AreEqual" computerName="3cef7e455965" duration="00:00:00.0000770" startTime="2024-05-09T03:09:51.8228141+00:00" endTime="2024-05-09T03:09:51.8228142+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd4fb70e-1a34-4a9a-aa07-82758511caf2" />
+    <UnitTestResult executionId="da54556b-656d-4135-8ca5-dce47582c077" testId="09b54a74-48bc-aa50-13c8-d9f60835ad3a" testName="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.ValueObjectTests.Equals_WithEqualValueObjects_ReturnsTrue" computerName="3cef7e455965" duration="00:00:00.0009543" startTime="2024-05-09T03:09:51.8085777+00:00" endTime="2024-05-09T03:09:51.8085778+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da54556b-656d-4135-8ca5-dce47582c077" />
+    <UnitTestResult executionId="c4218028-c7fc-4937-9419-333538c64dac" testId="e8674f1d-7bf7-c72a-a19b-bba28d25557f" testName="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests.Entity_WithSameId_HaveSameHashCode" computerName="3cef7e455965" duration="00:00:00.0052211" startTime="2024-05-09T03:09:51.8060551+00:00" endTime="2024-05-09T03:09:51.8060552+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4218028-c7fc-4937-9419-333538c64dac" />
+    <UnitTestResult executionId="0c27fa88-9473-4071-b6a1-78375790a654" testId="ff8ae6d0-a0e3-1e84-007e-ff1123542a57" testName="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests.Entity_WithSameId_HaveSameToString" computerName="3cef7e455965" duration="00:00:00.0015299" startTime="2024-05-09T03:09:51.8229795+00:00" endTime="2024-05-09T03:09:51.8229795+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c27fa88-9473-4071-b6a1-78375790a654" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.ValueObjectTests.GetHashCode_WithDifferentValueObjects_ReturnsDifferentHashCode" storage="/workspaces/clean-architecture/sources/cleanarchitecture/tests/cleanarchitecture.unittests/bin/debug/net8.0/cleanarchitecture.unittests.dll" id="1ca9ffbf-fef8-c78f-735c-0719d79da2f4">
+      <Execution id="77471237-f710-4d1b-8c5b-793ae0505501" />
+      <TestMethod codeBase="/workspaces/clean-architecture/sources/CleanArchitecture/tests/CleanArchitecture.UnitTests/bin/Debug/net8.0/CleanArchitecture.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.ValueObjectTests" name="GetHashCode_WithDifferentValueObjects_ReturnsDifferentHashCode" />
+    </UnitTest>
+    <UnitTest name="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests.Entity_WithDifferentId_HaveDifferentHashCode" storage="/workspaces/clean-architecture/sources/cleanarchitecture/tests/cleanarchitecture.unittests/bin/debug/net8.0/cleanarchitecture.unittests.dll" id="72031b4e-429f-6c71-19c7-374f46dc3ca0">
+      <Execution id="f9188c34-5cd3-4a1d-992d-01f3c1b99360" />
+      <TestMethod codeBase="/workspaces/clean-architecture/sources/CleanArchitecture/tests/CleanArchitecture.UnitTests/bin/Debug/net8.0/CleanArchitecture.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests" name="Entity_WithDifferentId_HaveDifferentHashCode" />
+    </UnitTest>
+    <UnitTest name="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests.Entity_WithSameId_HaveSameToString" storage="/workspaces/clean-architecture/sources/cleanarchitecture/tests/cleanarchitecture.unittests/bin/debug/net8.0/cleanarchitecture.unittests.dll" id="ff8ae6d0-a0e3-1e84-007e-ff1123542a57">
+      <Execution id="0c27fa88-9473-4071-b6a1-78375790a654" />
+      <TestMethod codeBase="/workspaces/clean-architecture/sources/CleanArchitecture/tests/CleanArchitecture.UnitTests/bin/Debug/net8.0/CleanArchitecture.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests" name="Entity_WithSameId_HaveSameToString" />
+    </UnitTest>
+    <UnitTest name="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests.Entity_WithSameId_HaveSameHashCode" storage="/workspaces/clean-architecture/sources/cleanarchitecture/tests/cleanarchitecture.unittests/bin/debug/net8.0/cleanarchitecture.unittests.dll" id="e8674f1d-7bf7-c72a-a19b-bba28d25557f">
+      <Execution id="c4218028-c7fc-4937-9419-333538c64dac" />
+      <TestMethod codeBase="/workspaces/clean-architecture/sources/CleanArchitecture/tests/CleanArchitecture.UnitTests/bin/Debug/net8.0/CleanArchitecture.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests" name="Entity_WithSameId_HaveSameHashCode" />
+    </UnitTest>
+    <UnitTest name="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests.Entity_WithDifferentId_HaveDifferentToString" storage="/workspaces/clean-architecture/sources/cleanarchitecture/tests/cleanarchitecture.unittests/bin/debug/net8.0/cleanarchitecture.unittests.dll" id="8be45ddf-4176-0c16-a902-b906891032fa">
+      <Execution id="ce502fbc-3c5b-4565-95a9-b4637df5e126" />
+      <TestMethod codeBase="/workspaces/clean-architecture/sources/CleanArchitecture/tests/CleanArchitecture.UnitTests/bin/Debug/net8.0/CleanArchitecture.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests" name="Entity_WithDifferentId_HaveDifferentToString" />
+    </UnitTest>
+    <UnitTest name="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.ValueObjectTests.Equals_WithEqualValueObjects_ReturnsTrue" storage="/workspaces/clean-architecture/sources/cleanarchitecture/tests/cleanarchitecture.unittests/bin/debug/net8.0/cleanarchitecture.unittests.dll" id="09b54a74-48bc-aa50-13c8-d9f60835ad3a">
+      <Execution id="da54556b-656d-4135-8ca5-dce47582c077" />
+      <TestMethod codeBase="/workspaces/clean-architecture/sources/CleanArchitecture/tests/CleanArchitecture.UnitTests/bin/Debug/net8.0/CleanArchitecture.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.ValueObjectTests" name="Equals_WithEqualValueObjects_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests.Entity_WithDifferentId_AreNotEqual" storage="/workspaces/clean-architecture/sources/cleanarchitecture/tests/cleanarchitecture.unittests/bin/debug/net8.0/cleanarchitecture.unittests.dll" id="55842f5b-0305-8df8-aad0-fcd76e53142c">
+      <Execution id="2600d1f7-3c0b-4789-b519-a23dd723a783" />
+      <TestMethod codeBase="/workspaces/clean-architecture/sources/CleanArchitecture/tests/CleanArchitecture.UnitTests/bin/Debug/net8.0/CleanArchitecture.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests" name="Entity_WithDifferentId_AreNotEqual" />
+    </UnitTest>
+    <UnitTest name="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.ValueObjectTests.GetHashCode_WithEqualValueObjects_ReturnsSameHashCode" storage="/workspaces/clean-architecture/sources/cleanarchitecture/tests/cleanarchitecture.unittests/bin/debug/net8.0/cleanarchitecture.unittests.dll" id="1912739d-364c-f430-22ca-c8ea855776a1">
+      <Execution id="4fea6041-f98c-4e40-bf80-7a57cbd2c6a7" />
+      <TestMethod codeBase="/workspaces/clean-architecture/sources/CleanArchitecture/tests/CleanArchitecture.UnitTests/bin/Debug/net8.0/CleanArchitecture.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.ValueObjectTests" name="GetHashCode_WithEqualValueObjects_ReturnsSameHashCode" />
+    </UnitTest>
+    <UnitTest name="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests.Entity_WithSameId_AreEqualWithOperator" storage="/workspaces/clean-architecture/sources/cleanarchitecture/tests/cleanarchitecture.unittests/bin/debug/net8.0/cleanarchitecture.unittests.dll" id="98115659-5584-6e53-51da-2928bbb4e2d4">
+      <Execution id="4c8511fc-bb7c-48ae-96fc-e5fd3a8e4ad2" />
+      <TestMethod codeBase="/workspaces/clean-architecture/sources/CleanArchitecture/tests/CleanArchitecture.UnitTests/bin/Debug/net8.0/CleanArchitecture.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests" name="Entity_WithSameId_AreEqualWithOperator" />
+    </UnitTest>
+    <UnitTest name="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests.Entity_WithSameId_AreEqual" storage="/workspaces/clean-architecture/sources/cleanarchitecture/tests/cleanarchitecture.unittests/bin/debug/net8.0/cleanarchitecture.unittests.dll" id="2de62c2b-fd73-901f-33b1-e21d49c02eb2">
+      <Execution id="fd4fb70e-1a34-4a9a-aa07-82758511caf2" />
+      <TestMethod codeBase="/workspaces/clean-architecture/sources/CleanArchitecture/tests/CleanArchitecture.UnitTests/bin/Debug/net8.0/CleanArchitecture.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests" name="Entity_WithSameId_AreEqual" />
+    </UnitTest>
+    <UnitTest name="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests.Entity_WithDifferentId_AreNotEqualWithOperator" storage="/workspaces/clean-architecture/sources/cleanarchitecture/tests/cleanarchitecture.unittests/bin/debug/net8.0/cleanarchitecture.unittests.dll" id="8deb6539-8148-2234-324b-d724f5af6961">
+      <Execution id="90b8a9c0-8dec-49d4-8ac1-e282e2a72ad2" />
+      <TestMethod codeBase="/workspaces/clean-architecture/sources/CleanArchitecture/tests/CleanArchitecture.UnitTests/bin/Debug/net8.0/CleanArchitecture.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests" name="Entity_WithDifferentId_AreNotEqualWithOperator" />
+    </UnitTest>
+    <UnitTest name="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.ValueObjectTests.Equals_WithDifferentValueObjects_ReturnsFalse" storage="/workspaces/clean-architecture/sources/cleanarchitecture/tests/cleanarchitecture.unittests/bin/debug/net8.0/cleanarchitecture.unittests.dll" id="93527e5d-510b-daed-5ac7-96f771220ccc">
+      <Execution id="2c485941-ee31-4069-8c32-5b9b32ff6157" />
+      <TestMethod codeBase="/workspaces/clean-architecture/sources/CleanArchitecture/tests/CleanArchitecture.UnitTests/bin/Debug/net8.0/CleanArchitecture.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.ValueObjectTests" name="Equals_WithDifferentValueObjects_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests.Entity_WithNull_AreNotEqual" storage="/workspaces/clean-architecture/sources/cleanarchitecture/tests/cleanarchitecture.unittests/bin/debug/net8.0/cleanarchitecture.unittests.dll" id="b3433f54-ef89-4bff-4c94-83f3c38cda26">
+      <Execution id="65c615fe-e015-4f89-a402-a3a6a8c22886" />
+      <TestMethod codeBase="/workspaces/clean-architecture/sources/CleanArchitecture/tests/CleanArchitecture.UnitTests/bin/Debug/net8.0/CleanArchitecture.UnitTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CleanArchitecture.UnitTests.Common.Primitives.DomainObjects.EntityTests" name="Entity_WithNull_AreNotEqual" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="8be45ddf-4176-0c16-a902-b906891032fa" executionId="ce502fbc-3c5b-4565-95a9-b4637df5e126" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72031b4e-429f-6c71-19c7-374f46dc3ca0" executionId="f9188c34-5cd3-4a1d-992d-01f3c1b99360" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1912739d-364c-f430-22ca-c8ea855776a1" executionId="4fea6041-f98c-4e40-bf80-7a57cbd2c6a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="55842f5b-0305-8df8-aad0-fcd76e53142c" executionId="2600d1f7-3c0b-4789-b519-a23dd723a783" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ca9ffbf-fef8-c78f-735c-0719d79da2f4" executionId="77471237-f710-4d1b-8c5b-793ae0505501" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b3433f54-ef89-4bff-4c94-83f3c38cda26" executionId="65c615fe-e015-4f89-a402-a3a6a8c22886" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8deb6539-8148-2234-324b-d724f5af6961" executionId="90b8a9c0-8dec-49d4-8ac1-e282e2a72ad2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98115659-5584-6e53-51da-2928bbb4e2d4" executionId="4c8511fc-bb7c-48ae-96fc-e5fd3a8e4ad2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93527e5d-510b-daed-5ac7-96f771220ccc" executionId="2c485941-ee31-4069-8c32-5b9b32ff6157" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2de62c2b-fd73-901f-33b1-e21d49c02eb2" executionId="fd4fb70e-1a34-4a9a-aa07-82758511caf2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09b54a74-48bc-aa50-13c8-d9f60835ad3a" executionId="da54556b-656d-4135-8ca5-dce47582c077" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8674f1d-7bf7-c72a-a19b-bba28d25557f" executionId="c4218028-c7fc-4937-9419-333538c64dac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff8ae6d0-a0e3-1e84-007e-ff1123542a57" executionId="0c27fa88-9473-4071-b6a1-78375790a654" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="13" executed="13" passed="13" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.5+1caef2f33e (64-bit .NET 8.0.4)
+[xUnit.net 00:00:00.21]   Discovering: CleanArchitecture.UnitTests
+[xUnit.net 00:00:00.23]   Discovered:  CleanArchitecture.UnitTests
+[xUnit.net 00:00:00.23]   Starting:    CleanArchitecture.UnitTests
+[xUnit.net 00:00:00.28]   Finished:    CleanArchitecture.UnitTests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
